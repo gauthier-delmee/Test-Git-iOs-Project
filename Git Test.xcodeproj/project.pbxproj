@@ -13,6 +13,7 @@
 		35FD6CF41976498D003A4C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FD6CF21976498D003A4C74 /* Main.storyboard */; };
 		35FD6CF61976498D003A4C74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FD6CF51976498D003A4C74 /* Images.xcassets */; };
 		35FD6D021976498D003A4C74 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FD6D011976498D003A4C74 /* Git_TestTests.m */; };
+		35FD6D0D19764C42003A4C74 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FD6D0C19764C42003A4C74 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		35FD6CFB1976498D003A4C74 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FD6D001976498D003A4C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35FD6D011976498D003A4C74 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		35FD6D0B19764C42003A4C74 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		35FD6D0C19764C42003A4C74 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				35FD6CF21976498D003A4C74 /* Main.storyboard */,
 				35FD6CF51976498D003A4C74 /* Images.xcassets */,
 				35FD6CE81976498D003A4C74 /* Supporting Files */,
+				35FD6D0B19764C42003A4C74 /* Test.h */,
+				35FD6D0C19764C42003A4C74 /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35FD6CF11976498D003A4C74 /* ViewController.m in Sources */,
+				35FD6D0D19764C42003A4C74 /* Test.m in Sources */,
 				35FD6CEE1976498D003A4C74 /* AppDelegate.m in Sources */,
 				35FD6CEB1976498D003A4C74 /* main.m in Sources */,
 			);
